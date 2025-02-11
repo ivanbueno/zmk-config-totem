@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp B           &kp L           &kp D               &kp C             &kp V        &kp J    &kp F              &kp O                &kp U            &kp APOSTROPHE
-               &mt LEFT_GUI N  &mt LEFT_ALT R  &mt LEFT_CONTROL T  &mt LEFT_SHIFT S  &kp G        &kp Y    &mt RIGHT_SHIFT H  &mt RIGHT_CONTROL A  &mt RIGHT_ALT E  &mt RIGHT_GUI I
-&kp BACKSLASH  &kp X           &kp Q           &kp M               &kp W             &kp Z        &kp K    &kp P              &kp COMMA            &kp SEMICOLON    &kp PERIOD       &kp SLASH
-                                               &kp DEL             &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC        &kp BSPC
+               &kp B               &kp L           &kp D           &kp C             &kp V        &kp J    &kp F              &kp O            &kp U            &kp APOSTROPHE
+               &mt LEFT_CONTROL N  &mt LEFT_ALT R  &mt LEFT_GUI T  &mt LEFT_SHIFT S  &kp G        &kp Y    &mt RIGHT_SHIFT H  &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I
+&kp BACKSLASH  &kp X               &kp Q           &kp M           &kp W             &kp Z        &kp K    &kp P              &kp COMMA        &kp SEMICOLON    &kp PERIOD           &kp SLASH
+                                                   &kp DEL         &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC        &kp BSPC
             >;
         };
 
