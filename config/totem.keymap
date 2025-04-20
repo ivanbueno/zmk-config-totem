@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp B               &kp L           &kp D           &kp C              &kp V        &kp J      &kp F              &kp O                &kp U                 &kp APOSTROPHE
-           &kp N               &kp R           &kp T           &kp S              &kp G        &kp Y      &kp H              &kp A                &kp E                 &kp I
-&kp GRAVE  &mt LEFT_CONTROL X  &mt LEFT_ALT Q  &mt LEFT_GUI M  &mt LEFT_SHIFT W   &kp Z        &kp K      &mt RIGHT_SHIFT P  &mt RIGHT_GUI COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL FSLH  &kp BACKSLASH
-                                               &kp ESCAPE      &lt NAV BACKSPACE  &kp SPACE    &kp SPACE  &lt SYM ENTER      &kp TAB
+           &kp B               &kp L           &kp D           &kp C             &kp V        &kp J      &kp F              &kp O                &kp U                 &kp APOSTROPHE
+           &kp N               &kp R           &kp T           &kp S             &kp G        &kp Y      &kp H              &kp A                &kp E                 &kp I
+&kp GRAVE  &mt LEFT_CONTROL X  &mt LEFT_ALT Q  &mt LEFT_GUI M  &mt LEFT_SHIFT W  &kp Z        &kp K      &mt RIGHT_SHIFT P  &mt RIGHT_GUI COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL FSLH  &kp BACKSLASH
+                                               &kp ESCAPE      &lt 2 BACKSPACE   &kp SPACE    &kp SPACE  &lt 1 ENTER        &kp TAB
             >;
         };
 
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+               &kp PLUS         &kp N7        &kp N8        &kp N9        &kp N0    &kp PAGE_UP    &kp LG(LEFT_BRACKET)  &kp UP_ARROW  &kp LG(RIGHT_BRACKET)  &kp HOME
+               &kp MINUS        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW        &kp DOWN      &kp RIGHT_ARROW        &kp END
+&kp KP_DIVIDE  &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans         &kp LG(Z)             &kp CAPS      &kp LG(LS(Z))          &trans    &bt BT_CLR
+                                              &trans        &trans        &trans    &mo ADJ        &trans                &trans
             >;
         };
 
