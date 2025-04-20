@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp B               &kp L           &kp D           &kp C             &kp V        &kp J    &kp F              &kp O            &kp U            &kp APOSTROPHE
-            &mt LEFT_CONTROL N  &mt LEFT_ALT R  &mt LEFT_GUI T  &mt LEFT_SHIFT S  &kp G        &kp Y    &mt RIGHT_SHIFT H  &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I
-&bt BT_CLR  &kp X               &kp Q           &kp M           &kp W             &kp Z        &kp K    &kp P              &kp COMMA        &kp SEMICOLON    &kp PERIOD           &kp SLASH
-                                                &kp DEL         &lt NAV TAB       &kp SPACE    &kp RET  &lt SYM ESC        &kp BSPC
+           &kp B               &kp L           &kp D           &kp C              &kp V        &kp J      &kp F              &kp O                &kp U                 &kp APOSTROPHE
+           &kp N               &kp R           &kp T           &kp S              &kp G        &kp Y      &kp H              &kp A                &kp E                 &kp I
+&kp GRAVE  &mt LEFT_CONTROL X  &mt LEFT_ALT Q  &mt LEFT_GUI M  &mt LEFT_SHIFT W   &kp Z        &kp K      &mt RIGHT_SHIFT P  &mt RIGHT_GUI COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL FSLH  &kp BACKSLASH
+                                               &kp ESCAPE      &lt NAV BACKSPACE  &kp SPACE    &kp SPACE  &lt SYM ENTER      &kp TAB
             >;
         };
 
