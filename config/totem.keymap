@@ -87,7 +87,7 @@
             bindings = <
            &kp B               &kp L           &kp D           &kp C             &kp V        &kp J      &kp F              &kp O                &kp U                 &kp APOSTROPHE
            &kp N               &kp R           &kp T           &kp S             &kp G        &kp Y      &kp H              &kp A                &kp E                 &kp I
-&kp GRAVE  &mt LEFT_CONTROL X  &mt LEFT_ALT Q  &mt LEFT_GUI M  &mt LEFT_SHIFT W  &kp Z        &kp K      &mt RIGHT_SHIFT P  &mt RIGHT_GUI COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL FSLH  &kp BACKSLASH
+&kp GRAVE  &mt LEFT_CONTROL X  &mt LEFT_ALT Q  &mt LEFT_GUI M  &mt LEFT_SHIFT W  &kp Z        &kp K      &mt RIGHT_SHIFT P  &mt RIGHT_GUI COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL FSLH  &kp SEMICOLON
                                                &kp ESCAPE      &lt 2 BACKSPACE   &kp SPACE    &kp SPACE  &lt 1 ENTER        &kp TAB
             >;
         };
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp PLUS         &kp N7        &kp N8        &kp N9        &kp N0    &kp PAGE_UP    &kp LG(LEFT_BRACKET)  &kp UP_ARROW  &kp LG(RIGHT_BRACKET)  &kp HOME
-               &kp MINUS        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW        &kp DOWN      &kp RIGHT_ARROW        &kp END
-&kp KP_DIVIDE  &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans         &kp LG(Z)             &kp CAPS      &kp LG(LS(Z))          &trans    &bt BT_CLR
-                                              &trans        &trans        &trans    &mo ADJ        &trans                &trans
+               &kp PLUS         &kp N7        &kp N8        &kp N9        &kp N0       &kp PAGE_UP    &kp LG(LEFT_BRACKET)  &kp UP_ARROW  &kp LG(RIGHT_BRACKET)  &kp HOME
+               &kp MINUS        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans       &kp PAGE_DOWN  &kp LEFT_ARROW        &kp DOWN      &kp RIGHT_ARROW        &kp END
+&kp KP_DIVIDE  &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &trans         &kp LG(Z)             &kp CAPS      &kp LG(LS(Z))          &trans    &bt BT_CLR
+                                              &trans        &trans        &trans       &mo ADJ        &trans                &trans
             >;
         };
 
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-           &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&kp GRAVE  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                     &trans     &gif      &mo ADJ      &trans        &kp C_PP        &trans
+           &kp EXCL      &kp AT     &kp HASH    &kp DLLR       &kp PRCNT    &kp CARET       &kp AMPS               &kp ASTERISK     &kp SQT            &kp DQT
+           &trans        &kp PIPE   &kp PERIOD  &kp SEMICOLON  &kp COLON    &kp MINUS       &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LESS_THAN
+&kp TILDE  &kp ASTERISK  &kp SLASH  &kp PLUS    &kp MINUS      &kp EQUAL    &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp BACKSLASH
+                                    &trans      &gif           &mo ADJ      &trans          &trans                 &trans
             >;
         };
 
